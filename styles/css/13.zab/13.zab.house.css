@@ -1,0 +1,58 @@
+.zab-house-left {
+  display: block;
+  width: 100%;
+  max-width: 26.16667em;
+  padding-top: 0.33333em; }
+  .zab-house-left form {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    .zab-house-left form .row {
+      margin: 0 -20px; }
+      .zab-house-left form .row *[class*="col"] {
+        padding: 0 20px; }
+
+.zab-house-right {
+  display: block;
+  width: 100%;
+  padding-top: 0.77778em; }
+  .zab-house-right .about_us--small {
+    padding-left: 1.94444em; }
+    .zab-house-right .about_us--small:not(:last-child) {
+      margin-bottom: 2.5em; }
+  .zab-house-right .about_us--small-slide {
+    min-height: 31.11111em; }
+    .zab-house-right .about_us--small-slide:before, .zab-house-right .about_us--small-slide:after {
+      display: none; }
+  .zab-house-right .about_us--small-info {
+    display: none; }
+  .zab-house-right .typography p {
+    font-size: 0.88889em;
+    line-height: 1.4375em; }
+    .zab-house-right .typography p:not(:last-child) {
+      margin-bottom: 1.25em; }
+
+@media (max-width: 1637px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 25.61111em; } }
+
+@media (max-width: 1399px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 21.55556em; } }
+
+@media (max-width: 1199px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 30.77778em; } }
+
+@media (max-width: 991px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 22.66667em; } }
+
+@media (max-width: 767px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 16.55556em; } }
+
+@media (max-width: 575px) {
+  .zab-house-right .about_us--small-slide {
+    min-height: 50vw; } }

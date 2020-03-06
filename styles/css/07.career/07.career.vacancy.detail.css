@@ -1,0 +1,29 @@
+.vacancy-detail {
+  display: block;
+  width: 100%;
+  padding-top: 1.11111em;
+  /*
+	.row {
+		margin: -15px;
+		*[class*="col"] {
+			padding: 15px;
+		}
+	}
+	*/ }
+  .vacancy-detail .typography {
+    padding-top: 1.5em;
+    max-width: 50.83333em;
+    margin-bottom: 0.61111em; }
+
+.vacancy-detail--photo {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.61111em; }
+  .vacancy-detail--photo img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; }
+
+@media (min-width: 992px) {
+  .vacancy-detail--photo {
+    margin-top: -7.27778em; } }

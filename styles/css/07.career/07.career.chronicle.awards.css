@@ -1,0 +1,9 @@
+.awards-container {
+  display: block;
+  width: 100%;
+  padding-top: 1.11111em;
+  padding-bottom: 0.72222em; }
+  .awards-container .row {
+    margin: -10px -5px; }
+    .awards-container .row *[class*="col"] {
+      padding: 10px 5px; }

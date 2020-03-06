@@ -1,0 +1,117 @@
+.investors-calendar {
+  display: inline-block;
+  width: 100%; }
+  .investors-calendar .title-line:not(:last-child) {
+    margin-bottom: 1.66667em; }
+  .investors-calendar:not(:last-child) {
+    margin-bottom: 0.66667em; }
+
+.investors-calendar--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin-left: -24.5px;
+  margin-right: -24.5px;
+  margin-top: -14.5px;
+  margin-bottom: -14.5px; }
+  .investors-calendar--inner .calendar-body {
+    width: auto;
+    width: unset;
+    width: none;
+    min-width: auto;
+    min-width: unset;
+    min-width: none;
+    padding-left: 24.5px;
+    padding-right: 24.5px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px; }
+
+.investors-calendar--right {
+  display: block;
+  width: 100%;
+  padding-top: 2.11111em;
+  padding-bottom: 2.11111em; }
+  .investors-calendar--right ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .investors-calendar--right ul li {
+      display: block;
+      width: 100%;
+      padding: 0 0 0 2.125em;
+      margin: 0;
+      list-style: none;
+      position: relative;
+      left: 0;
+      top: 0;
+      font-size: 0.88889em;
+      line-height: 1.4375em;
+      color: #151515; }
+      .investors-calendar--right ul li:not(:last-child) {
+        margin-bottom: 0.9375em; }
+
+.investors-calendar--right__color {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  padding: 0 !important; }
+
+.investors-table {
+  display: block;
+  width: 100%; }
+  .investors-table .title-line:not(:last-child) {
+    margin-bottom: 1.5em; }
+  .investors-table:not(:last-child) {
+    margin-bottom: 1.44444em; }
+
+.table-for_info {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; }
+  .table-for_info table,
+  .table-for_info caption,
+  .table-for_info tbody,
+  .table-for_info tfoot,
+  .table-for_info thead,
+  .table-for_info tr,
+  .table-for_info th,
+  .table-for_info td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    border-spacing: 0;
+    vertical-align: top; }
+  .table-for_info td,
+  .table-for_info th {
+    color: #151515;
+    font-size: 0.88889em;
+    line-height: 1.15em;
+    padding-right: 0.9375em; }
+    .table-for_info td:not(:last-child),
+    .table-for_info th:not(:last-child) {
+      padding-right: 3em; }
+  .table-for_info tr:not(:last-child) th,
+  .table-for_info tr:not(:last-child) td {
+    padding-bottom: 0.9375em; }

@@ -1,0 +1,79 @@
+.first-slide {
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0; }
+  .first-slide .container {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+
+.first-slide__inner {
+  display: block;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/first-slide__inner--3.jpg);
+  height: 100vh;
+  min-height: 23.33333em;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+  .first-slide__inner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+  .first-slide__inner:before, .first-slide__inner:after {
+    content: '';
+    display: block;
+    position: absolute; }
+  .first-slide__inner:before {
+    opacity: 0.5;
+    background-color: #000000;
+    background-position: center right -0.44444em;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url(../img/first-slide__inner--1.png);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .first-slide__inner:after {
+    background-image: url(../img/first-slide__inner--2.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 67.33333em;
+    height: 100%;
+    max-height: 42.22222em;
+    z-index: 3;
+    left: -0.44444em;
+    top: 0; }

@@ -1,0 +1,246 @@
+.news-list--top {
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 10; }
+  .news-list--top .row {
+    margin: -5px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .news-list--top .row *[class*="col"] {
+      padding: 5px; }
+  .news-list--top:not(:last-child) {
+    margin-bottom: 1.83333em; }
+
+.news-list {
+  display: block;
+  width: 100%;
+  padding: 0 0 0.66667em 0; }
+  .news-list .row {
+    margin: -5px; }
+    .news-list .row *[class*="col"] {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      padding: 5px; }
+      .news-list .row *[class*="col"] .row {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1; }
+
+.news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .news-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    -webkit-transition: background-color .35s, opacity .35s;
+    transition: background-color .35s, opacity .35s; }
+  .news-item:hover .news-item--link {
+    opacity: 1; }
+  .news-item:hover .news-item--inner {
+    opacity: 0; }
+
+.news-item--inner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  padding: 1.66667em 2.22222em 2.16667em 2.22222em;
+  opacity: 1;
+  -webkit-transition: opacity .35s;
+  transition: opacity .35s; }
+  .news-item--inner time {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 0 0 1.83333em;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 1em;
+    line-height: 1.94444em;
+    color: #fff; }
+    .news-item--inner time:before, .news-item--inner time:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 1.22222em;
+      height: 1px;
+      background-color: #fff; }
+    .news-item--inner time:before {
+      width: 0.16667em;
+      left: 0; }
+    .news-item--inner time:after {
+      width: 0.94444em;
+      left: 0.27778em; }
+    .news-item--inner time:not(:last-child) {
+      margin-bottom: 0.55556em; }
+  .news-item--inner h2 {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.38889em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    max-height: 4.2em;
+    overflow: hidden; }
+    .news-item--inner h2:not(:last-child) {
+      margin-bottom: 6.96em; }
+  .news-item--inner p {
+    display: block;
+    width: 100%;
+    max-width: 6.42857em;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 0.77778em;
+    line-height: 1.15em;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0; }
+    .news-item--inner p span {
+      display: block;
+      max-width: 100%; }
+
+@supports (display: -webkit-box) and (-webkit-box-orient: vertical) {
+  .news-item--inner h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; } }
+
+.news-item--tag {
+  display: block;
+  position: absolute;
+  left: 2.16667em;
+  right: 2.22222em;
+  bottom: 1.27778em; }
+
+.news-item--link {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  color: #ffffff;
+  font-size: 0.88889em;
+  line-height: 1.4375em;
+  width: 100%;
+  background-color: rgba(19, 76, 157, 0.8);
+  text-decoration: none;
+  padding: 2.25em 2.5em 7.90625em 2.5625em;
+  min-height: 21.875em;
+  opacity: 0;
+  -webkit-transition: opacity .35s;
+  transition: opacity .35s; }
+  .news-item--link .tgk-arrow-right,
+  .news-item--link .tgk-right-arrow {
+    display: block;
+    position: absolute;
+    right: 2.85714em;
+    bottom: 2.92857em;
+    width: 3.35714em;
+    height: 3.35714em;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    background: transparent;
+    text-decoration: none;
+    line-height: 3.21429em;
+    text-align: center;
+    font-size: 0.875em; }
+  .news-item--link span {
+    display: block;
+    max-width: 100%;
+    max-height: 14.375em;
+    overflow: hidden; }
+
+@supports (display: -webkit-box) and (-webkit-box-orient: vertical) {
+  .news-item--link span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10; } }
+
+.news-list--load-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .news-list--load-more:not(:first-child) {
+    margin-top: 3.33333em; }
+
+@media (max-width: 575px) {
+  .news-item--inner {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .news-item--inner h2 {
+      font-size: 1.11111em; }
+  .news-item--tag {
+    left: 20px;
+    right: 20px; }
+  .news-item--link {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .news-item--link .tgk-arrow-right,
+    .news-item--link .tgk-right-arrow {
+      right: 20px; } }

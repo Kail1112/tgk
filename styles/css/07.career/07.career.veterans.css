@@ -1,0 +1,30 @@
+.veterans-container {
+  display: block;
+  width: 100%;
+  padding-top: 1.44444em;
+  padding-bottom: 0.72222em; }
+  .veterans-container .row {
+    margin: -5px; }
+    .veterans-container .row *[class*="col"] {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      padding: 5px; }
+
+.veterans-item {
+  display: block;
+  width: 100%;
+  padding: 1.38889em 1.55556em 1.5em 1.55556em;
+  border: 1px solid #dddddd; }
