@@ -1,0 +1,29 @@
+.user-tabs {
+  display: block;
+  width: 100%; }
+
+.user-tab {
+  display: none;
+  width: 100%; }
+  .user-tab.active {
+    display: block; }
+
+.user-main {
+  display: block;
+  width: 100%;
+  padding-bottom: 2.77778em; }
+  .user-main .title:not(:last-child) {
+    margin-bottom: 0.475em; }
+  .user-main .row:not(:last-child) {
+    padding-bottom: 1.27778em; }
+
+.resume-documents {
+  display: block;
+  width: 100%; }
+  .resume-documents .gray-content {
+    padding-top: 2.22222em; }
+    .resume-documents .gray-content:before {
+      height: 500%; }
+  .resume-documents:not(:first-child) {
+    margin-top: 2.77778em;
+    margin-bottom: -1.16667em; }

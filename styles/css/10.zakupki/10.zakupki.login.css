@@ -1,0 +1,38 @@
+.zakupki-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: -9.11111em;
+  padding-top: 9.11111em;
+  padding-bottom: 1.66667em;
+  min-height: 100vh; }
+
+.zakupki-login--body {
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0; }
+
+@media (max-width: 1399px) {
+  .zakupki-login--body .form-bottom .col-lg-6 {
+    display: none; }
+  .zakupki-login--body .form-bottom .form-bottom--full {
+    text-align: right; } }
+
+@media (max-width: 400px) {
+  .zakupki-login--body .form-bottom .form-bottom--full {
+    text-align: left; } }

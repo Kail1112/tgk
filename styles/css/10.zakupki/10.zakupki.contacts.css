@@ -1,0 +1,58 @@
+.contact-main {
+  display: block;
+  width: 100%;
+  padding-top: 0.77778em;
+  padding-bottom: 0.5em; }
+  .contact-main .row {
+    margin: -1.25em -5px; }
+    .contact-main .row *[class*="col"] {
+      padding: 1.25em 5px; }
+  .contact-main .signature-card:not(:last-child) {
+    margin-bottom: 1.16667em; }
+
+.contact-list {
+  display: block;
+  width: 100%; }
+  .contact-list ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    .contact-list ul li {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 0; }
+      .contact-list ul li *[class*="tgk-"] {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        .contact-list ul li *[class*="tgk-"].tgk-user {
+          font-size: 1.0625em; }
+        .contact-list ul li *[class*="tgk-"].tgk-smartphone {
+          font-size: 1.3125em; }
+        .contact-list ul li *[class*="tgk-"].tgk-email {
+          font-size: 0.875em; }
+      .contact-list ul li a,
+      .contact-list ul li span {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.88889em;
+        line-height: 1.15em;
+        color: #000000;
+        padding: 0 0 0 1.75em;
+        position: relative;
+        left: 0;
+        top: 0; }
+      .contact-list ul li a {
+        -webkit-transition: color .35s;
+        transition: color .35s; }
+        .contact-list ul li a:hover {
+          color: #134c9d; }
+      .contact-list ul li:not(:last-child) {
+        margin-bottom: 1.16667em; }

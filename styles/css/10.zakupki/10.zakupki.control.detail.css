@@ -1,0 +1,45 @@
+.zakupki-control-detail {
+  display: block;
+  width: 100%;
+  padding-top: 1.94444em; }
+  .zakupki-control-detail .row:not(:last-child) {
+    margin-bottom: 2.83333em; }
+  .zakupki-control-detail .title-component {
+    line-height: 1.35em;
+    max-width: 18.33333em;
+    margin-top: 0.13333em;
+    margin-bottom: 1em; }
+  .zakupki-control-detail .time-block {
+    padding: 0; }
+  .zakupki-control-detail p:not(.time-block) {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.27778em;
+    color: #000000; }
+  .zakupki-control-detail .gray-content:after {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 29.44444em;
+    height: 100%;
+    max-height: 10.77778em;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/water-mark.svg); }
+
+.zakupki-documents {
+  padding-top: 2.16667em;
+  padding-bottom: 0.55556em; }
+  .zakupki-documents .title-component:not(:last-child) {
+    margin-bottom: 0.43333em; }
+  .zakupki-documents .documents.documents-vertical .document-link:not(:last-child) {
+    margin-bottom: 1.875em; }
